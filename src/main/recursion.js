@@ -13,7 +13,8 @@ function sum(number) {
 }
 
 
-//爬楼梯，N阶楼梯，每次只能爬1阶或者2阶，有多少种爬法
+//爬楼梯，N阶楼梯，每次只能爬1阶或者2阶，有多少种爬法。
+//采用递归容易造成超时，建议使用动态规划
 
 function climbstairs(n){
     if(n===1)return 1
